@@ -1,0 +1,34 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/af"
+        android:text="Add To Casual Wardrobe"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/ba" android:layout_marginTop="10dp"
+        android:text="add dress"
+        android:textSize="25dp"
+        android:layout_below="@+id/af"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView android:id="@+id/sf"
+        android:text="Get Your Dress"
+        android:textSize="30dp"
+        android:layout_below="@+id/ba"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/gf"
+        android:layout_marginTop="10dp"
+        android:text="find"
+        android:textSize="25dp"
+        android:layout_below="@+id/sf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

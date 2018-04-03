@@ -1,0 +1,65 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOOKING GOOD IS YOUR RIGHT..
+What You Like To Wear Today.."
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:background="#00f"
+        android:layout_marginTop="10dp"
+        android:textColor="#abcdef"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ew"
+        android:text="ETHNIC "
+        android:textSize="20dp"
+        android:textColor="#00f"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:background="#00fabc"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fw"
+        android:text="formal "
+        android:layout_below="@+id/ew"
+        android:textSize="20dp"
+        android:textColor="#00f"
+        android:background="#00fabc"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cw"
+        android:text="casual "
+        android:background="#00fabc"
+        android:layout_below="@+id/fw"
+        android:textSize="20dp"
+        android:textColor="#00f"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pw"
+        android:text="party "
+        android:layout_below="@+id/cw"
+        android:background="#00fabc"
+        android:textSize="20dp"
+        android:textColor="#00f"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>

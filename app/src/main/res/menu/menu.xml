@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/i5"
+        android:title="Sign In"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+
+    <item
+
+        android:id="@+id/i1"
+        android:title="Style">
+
+    </item>
+    <item
+        android:id="@+id/i2"
+        android:title="Advice">
+
+    </item>
+    <item
+        android:id="@+id/i3"
+        android:title="Fashion">
+
+    </item>
+    <item
+        android:id="@+id/i4"
+        android:title="More...">
+
+    </item>
+</menu>
